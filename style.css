@@ -87,10 +87,18 @@ body {
 .hero span { color: var(--accent); }
 .hero p { color: var(--text-secondary); font-size:16px; }
 .hero img {
-  width:260px; height:260px; border-radius:50%;
-  border:3px solid var(--accent);
+  width: 260px;
+  height: 260px;
+  border-radius: 50%;
+  border: 3px solid var(--accent);
+
+  object-fit: cover;        /* Makes image fill circle properly */
+  object-position: center;  /* Keeps face centered */
+  display: block;
+
   transition: transform .4s ease, box-shadow .4s ease;
 }
+
 .hero img:hover {
   transform: scale(1.07);
   box-shadow: 0 20px 60px rgba(0,191,165,0.35);

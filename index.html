@@ -9,87 +9,66 @@
 </head>
 <body>
 
+<div class="glow-bg"></div>
+
 <div class="wrapper">
   <header class="header">
-    <div class="brand">YASH<span>SUTHAR</span></div>
+    <div class="brand">YASH <span>SUTHAR</span></div>
     <nav class="nav">
       <a href="#about">About</a>
       <a href="#skills">Skills</a>
       <a href="#experience">Experience</a>
       <a href="#projects">Work</a>
-      <a href="#contact">Connect</a>
+      <a href="#contact" class="nav-cta">Connect</a>
     </nav>
   </header>
 
   <section class="hero fade">
     <div class="hero-content">
-      <span class="badge">Currently in Ontario, Canada</span>
-      <h1>Building apps that <span>actually work.</span></h1>
+      <div class="status-pill">
+        <span class="pulse-dot"></span> Available for new opportunities
+      </div>
+      <h1>Crafting high-performance <span>Mobile Experiences.</span></h1>
       <p>
-        I'm a Mobile Developer focused on iOS and Android. With 2+ years of experience, I specialize in turning complex requirements into clean, high-performance applications that people actually enjoy using.
+        I'm a Mobile Solutions Engineer focused on iOS & Android. I specialize in turning complex requirements into scalable, clean-coded applications that users love.
       </p>
       <div class="hero-cta">
-        <a href="#projects" class="btn-primary">View My Work</a>
-        <a href="#contact" class="btn-secondary">Let's Talk</a>
+        <a href="#projects" class="btn-primary">Explore My Work</a>
+        <a href="#contact" class="btn-secondary">Get In Touch</a>
       </div>
     </div>
     <div class="hero-visual">
-      <div class="img-container">
+      <div class="img-wrapper">
         <img src="yash.jpg" alt="Yash Suthar">
       </div>
     </div>
   </section>
 
   <section id="about" class="fade">
-    <div class="methodology-container">
-      <div class="philosophy-side">
-        <h2 class="section-title">My Approach</h2>
-        <div class="philosophy-content glass">
-          <p class="lead-text">
-            I believe that <strong>clean code is a prerequisite</strong>, not a feature. If the foundation isn't solid, the UI doesn't matter.
-          </p>
-          <p>
-            I don't just write code; I build systems. My goal is to create software that is easy to maintain, simple to scale, and resilient under pressure. I bridge the gap between backend complexity and a smooth user experience.
-          </p>
-          <div class="methodology-stats">
-            <div class="stat-item">
-              <span class="stat-value">99%</span>
-              <span class="stat-label">Crash-Free Rate</span>
-            </div>
-            <div class="stat-item">
-              <span class="stat-value">Clean</span>
-              <span class="stat-label">Architecture</span>
-            </div>
-            <div class="stat-item">
-              <span class="stat-value">Agile</span>
-              <span class="stat-label">Mindset</span>
-            </div>
-          </div>
+    <h2 class="section-title">Engineering Philosophy</h2>
+    <div class="about-grid">
+      <div class="philosophy-content glass">
+        <p class="lead-text">Clean code isn't a goal; it's the <strong>baseline.</strong></p>
+        <p>
+          I bridge the gap between backend complexity and seamless user interfaces. My approach centers on modular architecture, ensuring every app I build is ready to scale from day one.
+        </p>
+        <div class="stats-grid">
+          <div class="stat-card"><span class="val">99%</span><span class="lab">Crash-Free</span></div>
+          <div class="stat-card"><span class="val">2+</span><span class="lab">Years Exp</span></div>
+          <div class="stat-card"><span class="val">Clean</span><span class="lab">Design</span></div>
         </div>
       </div>
-
-      <div class="academic-side">
-        <h2 class="section-title">Education</h2>
-        <div class="academic-timeline">
-          <div class="edu-card glass">
-            <div class="edu-header">
-              <span class="edu-date">2025</span>
-              <span class="edu-honor">Graduating with Distinction</span>
-            </div>
-            <h4>Mobile Solutions Development</h4>
-            <p class="edu-location">Conestoga College, Canada</p>
-            <p class="edu-focus">Specializing in enterprise mobile architecture and cloud-native integrations.</p>
-          </div>
-
-          <div class="edu-card glass">
-            <div class="edu-header">
-              <span class="edu-date">2023</span>
-              <span class="edu-honor">First Class Honors</span>
-            </div>
-            <h4>B.Tech in Computer Science</h4>
-            <p class="edu-location">Dharmsinh Desai University, India</p>
-            <p class="edu-focus">Deep dive into data structures, algorithms, and software engineering principles.</p>
-          </div>
+      
+      <div class="edu-column">
+        <div class="edu-card glass">
+          <span class="edu-tag">2025</span>
+          <h4>Mobile Solutions Development</h4>
+          <p class="loc">Conestoga College, Canada</p>
+        </div>
+        <div class="edu-card glass">
+          <span class="edu-tag">2023</span>
+          <h4>B.Tech in Computer Science</h4>
+          <p class="loc">DDU, India</p>
         </div>
       </div>
     </div>
@@ -97,122 +76,85 @@
 
   <section id="skills" class="fade">
     <h2 class="section-title">Technical Toolkit</h2>
-    <div class="skills-container">
-      <div class="skill-category glass">
-        <div class="skill-icon">📱</div>
-        <h4>Mobile</h4>
-        <div class="skill-tags">
-          <span class="skill">Swift</span> <span class="skill">SwiftUI</span> <span class="skill">Java</span> <span class="skill">Combine</span> <span class="skill">UIKit</span>
-        </div>
+    <div class="skills-grid">
+      <div class="skill-box glass">
+        <div class="icon">📱</div>
+        <h3>Mobile</h3>
+        <div class="tags"><span class="t">SwiftUI</span><span class="t">UIKit</span><span class="t">Java</span><span class="t">Combine</span></div>
       </div>
-      <div class="skill-category glass">
-        <div class="skill-icon">⚙️</div>
-        <h4>Backend</h4>
-        <div class="skill-tags">
-          <span class="skill">.NET Core</span> <span class="skill">Node.js</span> <span class="skill">SQL</span> <span class="skill">Firebase</span> <span class="skill">REST APIs</span>
-        </div>
+      <div class="skill-box glass">
+        <div class="icon">⚙️</div>
+        <h3>Backend</h3>
+        <div class="tags"><span class="t">.NET Core</span><span class="t">Node.js</span><span class="t">Firebase</span><span class="t">SQL</span></div>
       </div>
-      <div class="skill-category glass">
-        <div class="skill-icon">🛠️</div>
-        <h4>Workflow</h4>
-        <div class="skill-tags">
-          <span class="skill">Git Flow</span> <span class="skill">Unit Testing</span> <span class="skill">Jira</span> <span class="skill">CI/CD</span>
-        </div>
+      <div class="skill-box glass">
+        <div class="icon">🛠️</div>
+        <h3>Workflow</h3>
+        <div class="tags"><span class="t">Git Flow</span><span class="t">CI/CD</span><span class="t">Jira</span><span class="t">Unit Testing</span></div>
       </div>
     </div>
   </section>
 
   <section id="experience" class="fade">
-    <h2 class="section-title">The Journey So Far</h2>
-    <div class="timeline">
-      <div class="timeline-item">
-        <div class="timeline-dot"></div>
-        <div class="card glass">
-          <span class="work-badge leadership">Leadership</span>
+    <h2 class="section-title">Professional Journey</h2>
+    <div class="main-timeline">
+      <div class="timeline-entry">
+        <div class="time-marker"></div>
+        <div class="exp-card glass">
+          <span class="badge leadership">Leadership</span>
           <h3>Operations Ambassador</h3>
-          <p class="company">Amazon, Brampton • 2024 - Present</p>
-          <ul class="exp-bullets">
-            <li>Leading and mentoring a team of 15+ to maintain safety and efficiency.</li>
-            <li>Recognized as Employee of the Month three times for high-performance targets.</li>
-          </ul>
+          <p class="meta">Amazon, Brampton • 2024 - Present</p>
+          <p>Mentoring teams of 15+ to maintain safety and peak operational efficiency.</p>
         </div>
       </div>
-
-      <div class="timeline-item">
-        <div class="timeline-dot"></div>
-        <div class="card glass">
-          <span class="work-badge tech">Development</span>
+      <div class="timeline-entry">
+        <div class="time-marker"></div>
+        <div class="exp-card glass">
+          <span class="badge tech">Development</span>
           <h3>Junior Software Developer</h3>
-          <p class="company">Thinkwik, India • 2023 - 2024</p>
-          <ul class="exp-bullets">
-            <li>Managed 3+ production iOS apps, maintaining crash-free rates above 99%.</li>
-            <li>Built reactive interfaces using Combine to handle real-time data flow.</li>
-            <li>Focused on code quality through strict testing and peer reviews.</li>
-          </ul>
+          <p class="meta">Thinkwik, India • 2023 - 2024</p>
+          <p>Scaled 3+ iOS apps with reactive Combine patterns and clean architecture.</p>
         </div>
       </div>
-
-      <div class="timeline-item">
-        <div class="timeline-dot"></div>
-        <div class="card glass">
-          <span class="work-badge intern">Internship</span>
+      <div class="timeline-entry">
+        <div class="time-marker"></div>
+        <div class="exp-card glass">
+          <span class="badge intern">Intern</span>
           <h3>Android Intern</h3>
-          <p class="company">Silverwing Technologies • 2019 - 2020</p>
-          <ul class="exp-bullets">
-            <li>Developed medical utility apps using Java and SQL.</li>
-            <li>Applied rigorous debugging to improve app stability and UX.</li>
-          </ul>
+          <p class="meta">Silverwing Technologies • 2019 - 2020</p>
+          <p>Built utility applications using Java and optimized SQL performance.</p>
         </div>
       </div>
     </div>
   </section>
 
   <section id="projects" class="fade">
-    <h2 class="section-title">Open Source & Projects</h2>
-    <div id="projectsGrid" class="projects-grid">
-        </div>
+    <h2 class="section-title">Latest Work</h2>
+    <div id="projectsGrid" class="projects-container"></div>
   </section>
 
   <section id="contact" class="fade">
-    <div class="contact-wrapper glass">
-      <div class="contact-content">
-        <div class="contact-header">
-          <span class="badge">Available for new opportunities</span>
-          <h2 class="contact-title">Let’s build something <span>remarkable</span> together.</h2>
-        </div>
-        
-        <p class="contact-description">
-          Whether you have a specific project in mind, a role that needs filling, or just want to talk about mobile tech—I’m always open to a good conversation.
-        </p>
-  
-        <div class="contact-action-area">
-          <a href="mailto:yashraj20702.ca@gmail.com" class="btn-primary contact-main-btn">
-            Start a Conversation
-            <span class="btn-icon">→</span>
-          </a>
-          
-          <div class="social-grid">
-            <a href="https://github.com/yashSuthar20702" target="_blank" class="social-link glass">GitHub</a>
-            <a href="https://linkedin.com" target="_blank" class="social-link glass">LinkedIn</a>
-          </div>
+    <div class="contact-ultra-card glass">
+      <div class="c-left">
+        <h2>Let's build the next big thing <span>together.</span></h2>
+        <p>Open for roles in Ontario or Remote opportunities.</p>
+        <div class="c-footer">
+          <div class="f-item"><span>Location</span><strong>Ontario, Canada</strong></div>
+          <div class="f-item"><span>Local Time</span><strong class="local-time">--:--</strong></div>
         </div>
       </div>
-      
-      <div class="contact-footer-info">
-        <div class="info-item">
-          <span class="info-label">Based in</span>
-          <span class="info-value">Ontario, Canada</span>
-        </div>
-        <div class="info-item">
-          <span class="info-label">Local Time</span>
-          <span class="info-value local-time">--:--</span>
+      <div class="c-right">
+        <a href="mailto:yashraj20702.ca@gmail.com" class="main-cta-btn">Send Message →</a>
+        <div class="social-links">
+          <a href="https://github.com/yashSuthar20702" target="_blank" class="s-pill glass">GitHub</a>
+          <a href="https://linkedin.com" target="_blank" class="s-pill glass">LinkedIn</a>
         </div>
       </div>
     </div>
   </section>
 
-  <footer>
-    <p>© 2026 Yash Suthar • Built with care in Ontario</p>
+  <footer class="final-footer">
+    <p>© 2026 Yash Suthar • Built for the future</p>
   </footer>
 </div>
 
